@@ -167,3 +167,141 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
         margin-top: 10px;
     }
 }
+
+
+
+/* ========== GLOBAL FIXES ========== */
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.container, .container-fluid{
+  overflow-x: hidden;
+}
+
+/* Cards width fix */
+.width{
+  width: 100% !important;
+}
+
+/* slider images responsive */
+.slider-track img {
+  width: 120px;
+}
+
+/* ========== LARGE SCREENS (≥1200px) ========== */
+@media (min-width: 1200px){
+  .width{
+    max-width: 180px;
+  }
+}
+
+/* ========== LAPTOPS (992px – 1199px) ========== */
+@media (max-width: 1199px){
+  .row.gap-2 > .card{
+    flex: 0 0 23%;
+    max-width: 23%;
+  }
+
+  .hero-image img{
+    width: 100%;
+  }
+}
+
+/* ========== TABLETS (768px – 991px) ========== */
+@media (max-width: 991px){
+
+  /* navbar */
+  #right-icon{
+    display: none !important;
+  }
+
+  #menu{
+    text-align: center;
+  }
+
+  /* hero section */
+  .hero-image{
+    text-align: center;
+  }
+
+  .hero-image img{
+    width: 80%;
+    margin: auto;
+  }
+
+  /* product cards grid */
+  .row.gap-2 > .card{
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-bottom: 15px;
+  }
+
+  /* known brands */
+  .col-sm-4{
+    width: 50%;
+  }
+}
+
+/* ========== MOBILE (≤767px) ========== */
+@media (max-width: 767px){
+
+  /* top spacing */
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* hero text */
+  .display-4{
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero-image img{
+    width: 100%;
+  }
+
+  /* product cards */
+  .row.gap-2 > .card{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* known brands */
+  .col-sm-4{
+    width: 100%;
+  }
+
+  /* footer */
+  footer{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  /* newsletter */
+  .bg-warning .row{
+    text-align: center;
+  }
+
+  .bg-warning .input-group{
+    justify-content: center;
+  }
+}
+
+/* ========== SMALL MOBILES (≤480px) ========== */
+@media (max-width: 480px){
+  .display-4{
+    font-size: 24px;
+  }
+
+  .card-title-wrapper{
+    font-size: 14px;
+  }
+
+  .card-text-wrapper{
+    font-size: 12px;
+  }
+}
