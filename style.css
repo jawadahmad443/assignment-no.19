@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #f2efe9 !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+#searchBar{
+    background-color: #FFC107;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+#searchBar span{
+    background-color: #FFC107;
+}
+/* .hero-image */
+.hero-image{
+    text-align: right;
+    margin-top: 20px;
+}
+.category-card{
+    background-color: #f7f6f2 !important;
+    border: none !important;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+.category-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.category-card img{
+    max-height: 90px;
+}
+
+
+.position {
+  bottom: 100px;
+  left: 17px;
+}
+.width {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+.card-title-wrapper {
+  min-height: 50px;
+  max-height: 50px;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+}
+
+.card-text-wrapper {
+  margin-bottom: 0;
+}
+.bg {
+  background: url(images/bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 168px;
+  overflow: hidden;
+  padding: 20px;
+}
+.bg1 {
+  background: url(images/bg1.png);
+  background-size: cover;
+  background-position: center;
+  height: 168px;
+}
+.bg2 {
+  background: url(images/bg2.png);
+  background-size: cover;
+  background-position: center;
+  height: 168px;
+}
+.media {
+  transform: rotate(-28deg);
+  overflow: hidden;
+}
+
+
+.slider-window {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  gap: 70px;
+  transition: transform 0.4s ease;
+}
+
+.slider-track img {
+  width: 15%;        
+  flex-shrink: 0;
+}
+.rotate-90  { transform: rotate(50deg); }
+
+.a{
+  text-decoration: none;
+  display: block;
+}
+.align-arrow{
+  position: absolute;
+    top: 9px;
+    right: 121px;
+}
+.align-0{
+      top: 8px;
+    right: 6px;
+}
+@media (max-width: 768px) {
+ .fix{
+  left: 150px;
+ }
+}
+
+
+/* ---------------- Medai Query------------- */
+@media (max-width: 1200px) {
+    .top-bar{
+        display: none !important;
+    }
+    .header .container{
+        max-width: 100% !important;
+    }
+    #searchBar{
+        display: none;
+    }
+}
+@media (max-width : 992px) {
+    .header{
+        background-color: #FFC107;
+    }
+    #searchBar{
+        display: block;
+    }
+     #right-icon {
+        display: block;
+        display: flex !important;
+        align-items: center;
+        gap: 15px;
+        margin-left: auto;
+    }
+    #bottom-badge span{
+        background-color: black !important;
+    }
+    #bottom-dadge2 span{
+        background-color: black !important;
+    }
+}
+@media (max-width: 768px) {
+    .price-off{
+        display: block;
+        margin-top: 10px;
+    }
+}

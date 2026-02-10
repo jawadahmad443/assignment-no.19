@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- icon-link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+    <link rel="shortcut icon" href="assets/asset 52.svg" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <!-- top-text -->
+    <div class="container top-bar">
+        <div class="row">
+            <div class="col-6 ">
+                <p>Welcom to Wordwide Electronics Store</p>
+            </div>
+            <div class="col-6 ms-auto d-flex justify-content-end gap-2">
+                <i class="ri-map-pin-line"></i>
+                <span>Store Location</span> |
+                <i class="ri-caravan-line"></i>
+                <span>Track Your Order</span> |
+                <i class="ri-shopping-bag-line"></i>
+                <span>Shop</span> |
+                <i class="ri-user-line"></i>
+                <span>MY Account</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- header -->
+    <div class="container-lg container-fluid  header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <div class="left-group d-flex align-items-center gap-2">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand fw-bold mb-0" href="#">electro</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav fs-5" id="menu">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Home</a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">page 1</a></li>
+                            <li><a href="#" class="dropdown-item">page 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">blog 1</a></li>
+                            <li><a href="#" class="dropdown-item">blog 2</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">page 1</a></li>
+                            <li><a href="#" class="dropdown-item">page 2</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
+                    <form id="searchBar" class="ms-4">
+                        <div class="input-group">
+                            <input class="form-control rounded-start-pill" type="text" placeholder="Search">
+                            <span class="input-group-text rounded-end-pill"><i class="ri-search-line"></i></span>
+                        </div>
+                    </form>
+
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-flex align-items-center gap-3 ms-3" id="right-icon">
+                <div class=" position-relative" id="bottom-badge">
+                    <i class="ri-repeat-2-line fs-4"></i>
+                    <span
+                        class="position-absolute  bottom-0 start-100 translate-middle-x  badge bg-warning border border-light rounded-circle">0
+                    </span>
+                </div>
+
+                <i class="ri-heart-line fs-4"></i>
+                <i class="ri-user-line fs-4"></i>
+                <div class=" position-relative" id="bottom-dadge2">
+                    <i class="ri-shopping-bag-line fs-4"></i>
+                    <span
+                        class="position-absolute  bottom-0 start-100 translate-middle-x  badge bg-warning border border-light rounded-circle">0
+                    </span>
+                </div>
+                <span class="fw-bold fs-4">$0.00</span>
+            </div>
+        </nav>
+    </div>
+
+    <!-- hero-section -->
+    <div class="container mb-4">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <div class="display-4">END SEASON SMARTPHONES</div>
+                <h5 class="mt-4">LAST CALL FOR UP TO
+                    <span
+                        class="price-off"><sup><strong>$</strong></sup><strong>250</strong><sub><strong>OFF!</strong></sub>
+                    </span>
+                </h5>
+                <button class="btn btn-warning px-5 mt-3">Start Buying</button>
+            </div>
+            <div class="col-md-7 hero-image mt-5 h-100">
+                <img src="assets/main-container-img/herro-img.webp" alt="image is error" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- firtst-section -->
+    <div id="main-section">
+        <div class="container bg-white">
+
+            <div class="row g-5 mt-2 p-lg-2">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="category-card card  p-3 text-center">
+                        <div id="img-card">
+                            <img src="assets/main-container-img/img-1.webp" class="img-fluid mb-3" alt="...">
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">Stereo</h5>
+                            <p class="card-text  text-muted small mb-0">7 products</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="category-card card  p-3 text-center">
+                        <div id="img-card">
+                            <img src="assets/main-container-img/img-2.webp" class="img-fluid mb-3" alt="...">
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">Home Theatre</h5>
+                            <p class="card-text  text-muted small mb-0">7 products</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="category-card card  p-3 text-center">
+                        <div id="img-card">
+                            <img src="assets/main-container-img/img-3.webp" class="img-fluid mb-3" alt="...">
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">Blutooth Speakers</h5>
+                            <p class="card-text  text-muted small mb-0">7 products</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="category-card card  p-3 text-center">
+                        <div id="img-card">
+                            <img src="assets/main-container-img/img-4.webp" class="img-fluid mb-3" alt="...">
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">Headphones</h5>
+                            <p class="card-text  text-muted small mb-0">7 products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container bg-white rounded-5">
+
+                <h2 class="border-bottom mx-5 pt-0 fs-3 fw-light">Hot Products Today</h2>
+                <div class="row gap-2 mx-5">
+
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Bluetooth Speakers,
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Notebook widescreen Y700-
+                        </div>
+                        <img src="images/notebook-speakers.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$159.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Bluetooth Speakers,
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Tablet Thin EliteBook Revolve 810 G2
+                        </div>
+                        <img src="images/tabletthin.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$1,347.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Bluetooth Speakers,
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Smartphone 6S 32GB LTE
+                        </div>
+                        <img src="images/earbuds.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$799.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Bluetooth Speakers,
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Wireless Audio System Multiroom 360
+                        </div>
+                        <img src="images/audio.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$69.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Bluetooth Speakers,
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Tablet Thin EliteBook Revolve 810 G2
+                        </div>
+                        <img src="images/amplifier.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$1,347.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mx-5 my-5">
+                    <div class="col-lg-6 mb-3 mb-lg-0">
+                        <div class="d-flex justify-content-between align-items-center bg rounded-4">
+                            <div class="media">
+                                <img src="images/controller.png" alt="" style="width: 200px; height: 200px"
+                                    class="object-fit-cover" />
+                            </div>
+                            <div class="w-50 pe-3">
+                                <p class="text-uppercase fs-6 mb-0">
+                                    <strong>#STAYHOME</strong> and catch big
+                                    <strong>deals</strong> on the games and consoles
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                        <div class="d-flex justify-content-center align-items-center bg1 rounded-3">
+                            <div class="p-3 fs-5">
+                                <p class="text-uppercase mb-0">office laptops for work</p>
+                            </div>
+                            <div class="text-dark fs-5">
+                                <span class="d-block">FROM</span>
+                                <b><sup>$</sup><b>749</b><sup>99</sup></b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column justify-content-center align-items-center bg2 rounded-3">
+                            <div class="p-4 text-center">
+                                <span class="d-block mb-2"> FROM </span>
+                                <span class="fs-5 d-block mb-2">WEEK DEAL </span>
+                                <span class="d-block fw-medium">HURRY UP BEFORE OFFER WILL END</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="border-bottom mx-5 pt-0 fs-3 fw-light">New Products</h2>
+                <div class="row gap-2 mx-5">
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Accessories, Headphone
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Universal Headphones Case in Black
+                        </div>
+                        <img src="images/headset.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$159.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Accessories, Headphone
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Headphones USB Wires
+                        </div>
+                        <img src="images/handsfree.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$50.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Accessories, Headphone
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Ultra Wireless S50 Headphones S50 with
+                        </div>
+                        <img src="images/pinkHeadset.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$350.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Game Consoles, Video Games
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Game Console Controller + USB 3.0 Cable
+                        </div>
+                        <img src="images/controller.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$99.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Audio Speakers, TV & Audio
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Wireless Audio System Multiroom 360
+                        </div>
+                        <img src="images/audioSpeaker.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$2,299.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <h2 class="border-bottom mx-5 pt-0 fs-3 fw-light my-5">Recommendation</h2>
+                <div class="row gap-2 mx-5">
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Accessories, Headphone
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Universal Headphones Case in Black
+                        </div>
+                        <img src="images/notebook-speakers.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$159.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Accessories, Headphone
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Tablet Thin EliteBook Revolve 810 G2
+                        </div>
+                        <img src="images/tabletthin.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$1,347.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Accessories, Headphone
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Smartphone 6S 32GB LTE
+                        </div>
+                        <img src="images/earbuds.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$799.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Accessories, Headphone
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Wireless Audio System Multiroom 360
+                        </div>
+                        <img src="images/audio.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$69.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 border-end col-2 width">
+                        <div class="card-text-wrapper text-body-tertiary">
+                            Accessories, Headphone
+                        </div>
+                        <div class="card-title-wrapper text-primary d-block fw-bold">
+                            Tablet Thin EliteBook Revolve 810 G2
+                        </div>
+                        <img src="images/amplifier.png" alt="" style="width: 150px" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-normal fs-4">$1,347.00</span>
+                            <div class="bg-secondary-subtle rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 40px; height: 40px">
+                                <i class="bi bi-cart-check text-white fw-bold fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="border-bottom mx-5 pt-0 fs-3 fw-light my-5">
+                    Tips and Inspirations
+                </h2>
+                <div class="row mx-5">
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <img src="images/cardSpeakers.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="fw-medium">Tips & Tricks</p>
+                                <div class="card-title fw-bold fs-5">
+                                    7 Expert Tips to Improve your Home Entertainment Sound
+                                </div>
+                                <p class="card-text">
+                                    A cinema like sound of home entertainment is mostly the dream of
+                                    the home owner like you, a nice and high quality of sounds to
+                                    make your entertainment at home be like a world class
+                                    entertainment. Use a home audio amplifier to improve your home
+                                    entertainment sound.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <img src="images/cardImg.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="fw-medium">Inspirations</p>
+                                <div class="card-title fw-bold fs-5">
+                                    Improve Your Interior Design with Smart Audio
+                                </div>
+                                <p class="card-text">
+                                    While your home theater and speakers deliver impressive visuals
+                                    and sound, they’re rarely designed with your home’s interior
+                                    design in mind. TVs may be thinner than in the past, and
+                                    high-end speakers often have a futuristic look, but they still
+                                    draw attention away from other décor in a space.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="border-bottom mx-5 pt-0 fs-3 fw-light my-5">Known Brands</h2>
+                <div class="row mx-5">
+                    <div class="col-sm-4 my-4">
+                        <div class="card border-0 position-relative bg-light">
+                            <div class="card-body">
+                                <img src="images/falcon.png" class="img-fluid mb-3" alt="" />
+                                <p class="card-text">
+                                    Brings you the best in music, plus all things culture, style,
+                                    and sports
+                                </p>
+                            </div>
+                            <img src="images/smallSpeaker.png" class="position-absolute bottom-0 end-0" width="120px"
+                                height="120px" style="margin-bottom: -50px; margin-right: -45px" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-sm-4 my-4">
+                        <div class="card border-0 position-relative bg-light">
+                            <div class="card-body">
+                                <img src="images/brand.png" class="img-fluid mb-3" alt="" />
+                                <p class="card-text">
+                                    Brings you the best in music, plus all things culture, style,
+                                    and sports
+                                </p>
+                            </div>
+                            <img src="images/cpu.png" class="position-absolute bottom-0 end-0" width="120px"
+                                height="120px" style="margin-bottom: -50px; margin-right: -45px" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-sm-4 my-4">
+                        <div class="card border-0 position-relative bg-light">
+                            <div class="card-body">
+                                <img src="images/pathway.png" class="img-fluid mb-3" alt="" />
+                                <p class="card-text">
+                                    Brings you the best in music, plus all things culture, style,
+                                    and sports
+                                </p>
+                            </div>
+                            <img src="images/speakerStanding.png" class="position-absolute bottom-0 end-0" width="120px"
+                                height="120px" style="margin-bottom: -50px; margin-right: -45px" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-sm-4 my-4">
+                        <div class="card border-0 position-relative bg-light">
+                            <div class="card-body">
+                                <img src="images/atmosphere.png" class="img-fluid mb-3" alt="" />
+                                <p class="card-text">
+                                    Brings you the best in music, plus all things culture, style,
+                                    and sports
+                                </p>
+                            </div>
+                            <img src="images/headset-blue.png" class="position-absolute bottom-0 end-0" width="120px"
+                                height="120px" style="margin-bottom: -50px; margin-right: -45px" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-sm-4 my-4">
+                        <div class="card border-0 position-relative bg-light">
+                            <div class="card-body">
+                                <img src="images/sportx.png" class="img-fluid mb-3" alt="" />
+                                <p class="card-text">
+                                    Brings you the best in music, plus all things culture, style,
+                                    and sports
+                                </p>
+                            </div>
+                            <img src="images/modernHeadset.png" class="position-absolute bottom-0 end-0" width="120px"
+                                height="120px" style="margin-bottom: -50px; margin-right: -45px" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-white">
+        <div class="d-flex align-items-center py-2 m-5 border-top border-bottom">
+            <button class="btn btn-light me-2" id="prevBtn">‹</button>
+
+            <div class="slider-window">
+                <div id="logoTrack" class="slider-track">
+                    <img src="images/airdnd.png" />
+                    <img src="images/coinbuild.png" />
+                    <img src="images/dribble.png" />
+                    <img src="images/insta.png" />
+                    <img src="images/netflix.png" />
+                    <img src="images/pininterest.png" alt="" />
+                    <img src="images/airdnd.png" />
+                    <img src="images/coinbuild.png" />
+                    <img src="images/dribble.png" />
+                </div>
+            </div>
+
+            <button class="btn btn-light ms-2" id="nextBtn">›</button>
+        </div>
+
+
+
+        <div class="row g-0 ms-4 me-5 pb-5">
+            <div class="col-sm-6">
+                <h2 class="border-bottom mx-2 pt-0 fs-5 fw-medium pb-3 pt-0 my-3">
+                    Featured Products
+                </h2>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/iphone.png" class="img-fluid rounded-start" width="90px" alt="iphone" />
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <div class="card-body pe-0 pb-1  ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Tablet Thin EliteBook Revolve 810 G6
+                                </h5>
+                                <p class="card-text">$1,300.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/android.png" class="img-fluid rounded-start" width="90px" alt="android" />
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <div class="card-body pe-0 pb-1 ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Notebook Widescreen Z51-70 40K6013UPB
+                                </h5>
+                                <p class="card-text">$1,100.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/smart-phone.png" class="img-fluid rounded-start" width="90px" alt="" />
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <div class="card-body pe-0 pb-1 ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Smartphone 6S 128GB LTE
+                                </h5>
+                                <div class="d-flex">
+                                    <p class="card-text text-danger">$750.00</p>
+                                    <p class="card-text text-secondary text-decoration-line-through ps-1">
+                                        $780.00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2 class="border-bottom mx-2 pt-0 fs-5 fw-medium pb-3 pt-0 my-3">
+                    Top Selling Products
+                </h2>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/controller.png" class="img-fluid rounded-start" width="90px" alt="" />
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <div class="card-body pe-0 pb-1 ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Game Console Controller + USB 3.0 Cable
+                                </h5>
+                                <p class="card-text">$99.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/headset.png" class="img-fluid rounded-start" width="90px" alt="" />
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <div class="card-body pe-0 pb-1 ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Universal Headphones Case in Black
+                                </h5>
+                                <p class="card-text">$159.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/iphone.png" class="img-fluid rounded-start" width="90px" alt="" />
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <div class="card-body pe-0 pb-1 ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Tablet Thin EliteBook Revolve 810 G6
+                                </h5>
+                                <p class="card-text">$1,300.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2 class="border-bottom mx-2 pt-0 fs-5 fw-medium pb-3 pt-0 my-3">
+                    On-sale Products
+                </h2>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/smart-phone.png" class="img-fluid rounded-start" width="90px" alt="" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body pe-0 pb-1 ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Smartphone 6S 128GB LTE
+                                </h5>
+                                <div class="d-flex">
+                                    <p class="card-text text-danger">$750.00</p>
+                                    <p class="card-text text-secondary text-decoration-line-through ps-1">
+                                        $780.00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/tablet.png" class="img-fluid rounded-start" width="90px" alt="" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body pe-0 pb-1 ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Tablet Red EliteBook Revolve 810 G2
+                                </h5>
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="card-text text-danger">$2,100.00</p>
+                                    <p class="card-text text-secondary text-decoration-line-through ps-1">
+                                        $2,200.00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0" style="max-width: 476px">
+                    <div class="row g-0">
+                        <div class="col-md-3 p-0 d-flex justify-content-center align-items-center">
+                            <img src="images/infinix.png" class="img-fluid rounded-start" width="90px" alt="" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body pe-0 pb-1 ">
+                                <h5 class="card-title mb-2 fs-6 text-primary">
+                                    Ultrabook UX305CA-FC050T
+                                </h5>
+                                <div class="d-flex">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="card-text text-danger">$1,200.00</p>
+                                    <p class="card-text text-secondary text-decoration-line-through ps-1">
+                                        $1,218.00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="images/ad.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-warning py-2">
+        <div class="row d-flex align-items-center g-0 ps-4">
+            <div class="col-sm-3 d-flex align-items-center ">
+                <i class="bi bi-send pe-3"></i>
+                <p class="fs-4 mb-0">Sign up to Newsletter</p>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-start align-items-center">
+                <p class="mb-0">
+                    ...and receive <b>$20 coupon for first shopping</b>
+                </p>
+            </div>
+            <div class="col-sm-5">
+                <div class="input-group">
+                    <input type="email" name="email" id="email" placeholder="Enter your email address"
+                        class="rounded-start-5 border-0 ps-4 pe-5 w-75" />
+                    <button type="button" class="btn btn-dark text-white rounded-end-5">
+                        SignUp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row m-5">
+            <div class="col-sm-5">
+                <h5 class="fw-bolder fs-1">
+                    electro<span class="text-warning">.</span>
+                </h5>
+                <div class="d-flex gap-3">
+                    <i class="bi bi-headset fs-1 text-warning"></i>
+                    <div class="">
+                        <p class="mb-0">Got Questions ? Call us 24/7!</p>
+                        <p class="fw-medium fs-4">(800) 8001-8588, (0600) 874 548</p>
+                    </div>
+                </div>
+                <p class="fw-medium mb-0">Contact Info</p>
+                <p class="">17 Princess Road, London, Greater London NW1 8JR, UK</p>
+                <div class="d-flex gap-3">
+                    <i class="fs-4 text-secondary bi bi-facebook"></i>
+                    <i class="fs-4 text-secondary bi bi-whatsapp"></i>
+                    <i class="fs-4 text-secondary bi bi-pinterest"></i>
+                    <i class="fs-4 text-secondary bi bi-linkedin"></i>
+                    <i class="fs-4 text-secondary bi bi-instagram"></i>
+                    <i class="fs-4 text-secondary bi bi-youtube"></i>
+                    <i class="fs-4 text-secondary bi bi-wifi rotate-90"></i>
+                </div>
+            </div>
+            <div class="col-sm">
+                <p class="fw-medium">Find It Fast</p>
+                <a href="#" class="a text-dark mb-2">Laptops & Computers</a>
+                <a href="#" class="a text-dark mb-2">Cameras & Photography</a>
+                <a href="#" class="a text-dark mb-2">Smart Phones & Tablets</a>
+                <a href="#" class="a text-dark mb-2">Video Games & Consoles</a>
+                <a href="#" class="a text-dark mb-2">TV & Audio</a>
+                <a href="#" class="a text-dark mb-2">Gadgets</a>
+                <a href="#" class="a text-dark mb-2">Waterproof Headphones</a>
+            </div>
+            <div class="col-sm">
+                <p class="fw-medium">&nbsp;</p>
+                <a href="#" class="a d-block text-dark mb-2">About</a>
+                <a href="#" class="a d-block text-dark mb-2">Contact</a>
+                <a href="#" class="a d-block text-dark mb-2">Wishlist </a>
+                <a href="#" class="a d-block text-dark mb-2">Compare</a>
+                <a href="#" class="a d-block text-dark mb-2">FAQ</a>
+                <a href="#" class="a d-block text-dark mb-2">Gadgets</a>
+                <a href="#" class="a d-block text-dark mb-2">Store Directory </a>
+            </div>
+            <div class="col-sm">
+                <p class="fw-medium">Customer Care</p>
+                <a href="#" class="a text-dark mb-2">My Account</a>
+
+                <a href="#" class="a text-dark mb-2">Track your Order</a>
+                <a href="#" class="a text-dark mb-2">Cameras & Photography</a>
+                <a href="#" class="a text-dark mb-2">Customer Service</a>
+                <a href="#" class="a text-dark mb-2">Returns/Exchange</a>
+                <a href="#" class="a text-dark mb-2">FAQs</a>
+                <a href="#" class="a text-dark mb-2">Product Support</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="px-5 d-flex justify-content-between align-items-center bg-secondary-subtle container-fluid">
+        <p class="mb-0"><b>&copy; Electro</b> - All Rights Reserved</p>
+        <img src="images/payment-methods.png" alt="">
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
